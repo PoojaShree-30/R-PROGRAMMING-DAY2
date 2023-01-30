@@ -1,0 +1,12 @@
+data = airquality
+print(data)
+print(&quot;Original data: Daily air quality measurements in New York, May to
+September 1973.&quot;)
+print(class(data))
+print(head(data,10))
+result = data[order(data[,1]),]
+print(&quot;Order the entire data frame by the first and second column:&quot;)
+print(result)
+print(&quot;Removing solar.R and wind &quot;)
+a&lt;-data[,-2:-3]
+print(a)
