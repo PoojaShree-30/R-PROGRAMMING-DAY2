@@ -1,0 +1,6 @@
+data = women
+print(&quot;Women data set of height and weights:&quot;)
+print(data)
+height_f = cut(women$height,2)
+print(&quot;Factor corresponding to height:&quot;)
+print(table(height_f))
