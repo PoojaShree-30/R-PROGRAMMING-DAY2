@@ -1,0 +1,8 @@
+A&lt;-exam_data
+#print(A)
+n&lt;-sort(A$name)
+s&lt;-sort(A$score)
+#print(n)
+#print(s)
+x = matrix(c(n,s),nrow = 12)
+print(x)
