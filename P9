@@ -1,0 +1,5 @@
+A&lt;-exam_data
+
+save(A,file=&quot;data.rda&quot;)
+load(&quot;data.rda&quot;)
+file.info(&quot;data.rda&quot;)
